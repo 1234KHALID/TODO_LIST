@@ -1,0 +1,39 @@
+body{
+ padding: 0;
+ margin: 0;
+ background-color: khaki;
+ /* opacity: 0.6; */
+}
+
+.container{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    padding: 20px;
+    width: 500px;
+    border: 2px solid greenyellow;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.container input{
+    outline: none;
+    width: 70%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border:2px solid rgb(192, 55, 34);
+    outline: none;
+    margin-left:5px ;
+}
+
+.container button{
+    border: none;
+    background-color: khaki;
+    color: #fff;
+    padding: 10px;
+    width:20%;
+    font-size: large;
+    font-weight: 600;
+    margin: 0;
+}
